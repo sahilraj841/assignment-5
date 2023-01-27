@@ -1,0 +1,40 @@
+lst=[]
+for i in range(10):
+    x=int(input("enter number"))
+    lst.append(x)
+lst1=[]
+lst2=[]
+lst3=[]
+lst4=[]
+
+for j in lst:
+    if j>0:
+        lst1.append(j)
+    else:
+        lst2.append(j)
+for k in lst:
+    if k%2==0:
+        lst3.append(k)
+    else:
+        lst4.append(k)
+print(lst1,"positive")
+print(lst2,"negative")
+print(lst3,"even")
+print(lst4,"odd")
+
+
+k={ }
+for m in lst:
+    if m in k:
+        k[m]+=1
+    else:
+         k[m]=1
+print(k)
+
+
+
+
+
+
+
+
