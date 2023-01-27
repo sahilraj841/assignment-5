@@ -1,0 +1,10 @@
+import math
+a=float(input("enter first side"))
+b=float(input("enter second side"))
+c=float(input("enter third side"))
+s=(a+b+c)/2
+if a+b>c and b+c>a and c+a>b:
+    print("it is a triangle")
+    print("area=",(s*(s-a)*(s-b)*(s-c))**0.5)
+else:
+    print("it is not a triangle")
