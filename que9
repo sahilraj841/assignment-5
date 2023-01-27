@@ -1,0 +1,16 @@
+lst=[]
+x=int(input("enter number of elements"))
+for i in range(0,x):
+    y=input()
+    lst.append(y)
+print(lst)
+k={ }
+
+for m in lst:
+    if m in k:
+        k[m]+=1
+    else:
+        k[m]=1
+print(k)
+
+
